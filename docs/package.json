@@ -1,0 +1,22 @@
+{
+  "name": "flutter-notebook",
+  "version": "1.0.0",
+  "description": "flutter notebook",
+  "main": "index.js",
+  "scripts": {
+    "publish": "gitbook build . docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riskers/flutter-notebook.git"
+  },
+  "author": "riskers <gaoyibobobo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/riskers/flutter-notebook/issues"
+  },
+  "homepage": "https://github.com/riskers/flutter-notebook",
+  "dependencies": {
+    "gitbook-cli": "^2.3.2"
+  }
+}
