@@ -1,5 +1,5 @@
 * 优势
-* [widgets](./widgets/README.md)
+* widgets
   * [抽离 Widget](./absWidgets.md)
 * 依赖管理
 * 网络请求

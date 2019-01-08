@@ -1,12 +1,30 @@
+写给前端的 Flutter 看的笔记
 
 
-* 优势
-* [widgets](./widgets/README.md)
-  * [抽离 Widget](./absWidgets.md)
-* 依赖管理
-* 网络请求
-* Native 集成
-	* 与 Native 通信: bridge
-	* 开发 package 来调用特定平台API
-* 打包
-* 项目架构：如何在一个项目中前端、iOS、Android 一起协作
+<!-- Flutter 介绍；
+Dart 介绍；
+环境搭建；
+工程目录介绍；
+基础部件；
+布局；
+动画；
+路由；
+如何添加资源图片和字体 -->
+
+<!--
+
+-----
+
+Dart 资源:
+
+* [闲话Dart精髓语法--初始](https://www.jianshu.com/p/21cc088df617)
+* [dart简易学习](https://www.jianshu.com/p/be2aba208d9a)
+
+-----
+
+Flutter 资源:
+
+* https://github.com/PoojaB26/FlutterBasicWidgets
+* [Flutter原理与实践](https://tech.meituan.com/waimai_flutter_practice.html)
+
+ -->
