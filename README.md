@@ -1,4 +1,4 @@
-写给前端的 Flutter 看的笔记
+写给前端看的 Flutter 笔记
 
 
 <!-- Flutter 介绍；
