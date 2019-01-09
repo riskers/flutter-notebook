@@ -1,6 +1,6 @@
 <!-- * 优势 -->
 
-* widgets
+* Widget
 	* [自定义 Widget](./widgets/custom_widget.md)
 
 <!-- * 依赖管理 -->
