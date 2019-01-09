@@ -85,4 +85,4 @@ class HelloRect extends StatelessWidget {
 
 [function_widget]:https://gist.githubusercontent.com/riskers/fb174083be0064aaa1c232e468ee8ed9/raw/7e1cfd2267267fa1aec5359a6517116985f8318e/function_widget.dart
 [stateless_widget]:https://gist.githubusercontent.com/riskers/fb174083be0064aaa1c232e468ee8ed9/raw/f5cb58dea28d71a9a4b4fca979e3f14697462791/stateless_widget.dart
-[stateless_widget_multi_params]:https://gist.githubusercontent.com/riskers/fb174083be0064aaa1c232e468ee8ed9/raw/44b6cfda1dbe205349e8fdfd16232b7f74df4bc4/stateless_widget_multi_params.dart
+[stateless_widget_multi_params]:https://gist.githubusercontent.com/riskers/fb174083be0064aaa1c232e468ee8ed9/raw/ced8bda7d485ebc5cb6f2ab0e2a8fa35804f1223/stateless_widget_multi_params.dart
