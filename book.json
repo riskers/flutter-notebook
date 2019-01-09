@@ -51,7 +51,7 @@
       }]
     },
     "editlink": {
-      "base": "https://github.com/riskers/flutter-notebook/edit/master/conent",
+      "base": "https://github.com/riskers/flutter-notebook/blob/master",
       "label": "Edit",
       "multilingual": false
     },
