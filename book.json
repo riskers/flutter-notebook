@@ -2,25 +2,7 @@
   "title": "写给前端看的 flutter 笔记",
   "author": "riskers",
   "plugins": [
-    "-lunr",
-    "-search",
-    "search-pro",
-    "-sharing",
-    "disqus",
-    "github",
-    "github-buttons",
-    "editlink",
-    "ga",
-    "-highlight",
-    "prism",
-    "bibtex-indexed-cite",
-    "anchor-navigation-ex",
-    "page-footer-ex",
-    "splitter",
-    "todo",
-    "copy-code-button",
-    "expandable-chapters-small",
-    "donate"
+    
   ],
   "links" : {
     "sidebar" : {
