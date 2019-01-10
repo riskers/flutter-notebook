@@ -75,7 +75,7 @@ class HelloRect extends StatelessWidget {
 }
 ```
 
-这一段看懂之后就运行下面的代码，再看效果:
+这一段看懂之后就运行下面的代码，再看效果 :
 
 [Code][stateless_widget_multi_params]
 
