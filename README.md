@@ -1,30 +1,33 @@
-写给前端看的 Flutter 笔记
+### for FE
+
+针对前端来说，布局 Widget 类比 CSS，StatefulWidget 和 StatelessWidget 类比 React 组件，pub 类比 npm。
+
+大致分为:
+
+* widget
+  * stateless
+  * stateful
+  * layout
+  * route
+  * ...
+* theme
+* interactivity
+  * TextField
+  * 手势
+  * ...
+* deps
+  * pub
+  * plugins
+  * file (assets: font / image)
+
+### for Native
+
+对于 Native 开发者，主要工作应是:
+
+* 开发 plugin
+* 打包
+* 协同
+* ...
 
 
-<!-- Flutter 介绍；
-Dart 介绍；
-环境搭建；
-工程目录介绍；
-基础部件；
-布局；
-动画；
-路由；
-如何添加资源图片和字体 -->
-
-<!--
-
------
-
-Dart 资源:
-
-* [闲话Dart精髓语法--初始](https://www.jianshu.com/p/21cc088df617)
-* [dart简易学习](https://www.jianshu.com/p/be2aba208d9a)
-
------
-
-Flutter 资源:
-
-* https://github.com/PoojaB26/FlutterBasicWidgets
-* [Flutter原理与实践](https://tech.meituan.com/waimai_flutter_practice.html)
-
- -->
+整体来说，UI 部分为前端来做，应用的是自己熟悉的思想，不过是换了框架和语言。而 App 的底层功能调用为 Native 开发 plugin 来让前端来用。

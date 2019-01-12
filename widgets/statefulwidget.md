@@ -2,6 +2,8 @@
 
 保存状态的 widget
 
+实现一个 stateful 的 widget，可以继承 StatefulWidget 并在 createState 方法中返回一个 State。
+
 ```dart
 // StatefulWidget 基本结构
 class HelloRect extends StatefulWidget {
