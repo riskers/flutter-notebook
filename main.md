@@ -69,7 +69,7 @@ new Image.network(
 
 ## Row
 
-* 不灵活布局: 
+* 不灵活布局:
 * 灵活布局 `Expanded`: 平均分配，一行充满
 
 第三个 button 是自由伸缩的，前两个是 Expanded 的。
