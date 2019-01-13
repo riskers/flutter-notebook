@@ -1,3 +1,0 @@
-* TextField
-* ...
-* [手势](./gestures.md)
