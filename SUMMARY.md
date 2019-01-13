@@ -4,14 +4,15 @@
 
 ## 组件
 
-* [overview](./widgets)
+* [概述](./widgets/README.md)
 * [StatelessWidget](./widgets/statelesswidget.md)
 * [StatefulWidget](./widgets/statefulwidget.md)
 
-## UI 进阶
+## 进阶
 
 * 主题
 * 路由
+* 模块依赖
 
 ## Native
 
@@ -21,4 +22,9 @@
 ## 团队协作
 
 * [Lint 工具](./team/lint.md)
-* 工程管理
+* [工程管理](./team/product.md)
+
+## 其他
+
+* [技巧](./ending/tips.md)
+* [总结](./ending/README.md)
