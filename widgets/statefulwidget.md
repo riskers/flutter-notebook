@@ -35,4 +35,4 @@ class _HelloRectState extends State <HelloRect> {
 ```
 
 
-[Code](https://gist.githubusercontent.com/riskers/fb174083be0064aaa1c232e468ee8ed9/raw/b44ba9870e151adaa0fac383f6ed9d5dd25b8cb0/stateful_widget.dart)
+[Code](https://gist.githubusercontent.com/riskers/fb174083be0064aaa1c232e468ee8ed9/raw/6eaa47e09deca687894d15aeb9f2aaca724fb716/stateful_widget.dart)
