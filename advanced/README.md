@@ -1,2 +1,4 @@
 * theme
 * route
+* deps
+* anmation
