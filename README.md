@@ -38,6 +38,7 @@
   * plugin 开发
   * 在 Android 项目中集成
   * 在 iOS 项目中集成
+  * 打包
 * 团队协作
   * [Lint 工具](./team/lint.md)
   * [工程管理](./team/product.md)
