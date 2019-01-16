@@ -30,11 +30,14 @@
   * [路由](./advanced/route.md)
   * 模块依赖
   * 动画
+  * 状态管理
 * Example
   * data-flow
 * Native
   * 通信
   * plugin 开发
+  * 在 Android 项目中集成
+  * 在 iOS 项目中集成
 * 团队协作
   * [Lint 工具](./team/lint.md)
   * [工程管理](./team/product.md)
