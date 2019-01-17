@@ -14,7 +14,8 @@
 * [路由](./advanced/route.md)
 * 模块依赖
 * 动画
-* 状态管理
+* flutter 中使用 redux 管理状态
+* 数据持久化
 
 ## Example
 
