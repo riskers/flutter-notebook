@@ -17,3 +17,5 @@ flutter 或者 React-Native 这种跨端开发真正能在生产环境用，我�
 flutter vs web:
 
 思路一样，都是基于界面编程，没有什么高大上的概念。
+
+说着是写写 flutter 的笔记，不过好像复习了一遍 react。
