@@ -25,8 +25,7 @@
 
 * 通信
 * plugin 开发
-* 在 Android 项目中集成
-* 在 iOS 项目中集成
+* [在 Android / iOS 项目中集成](./native/add_flutter_to_app.md)
 * 打包
 
 ## 团队协作

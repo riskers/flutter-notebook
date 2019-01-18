@@ -15,42 +15,29 @@
 
 整体来说，UI 部分为前端来做，应用的是自己熟悉的思想，不过是换了框架和语言。而 App 的底层功能调用为 Native 开发 plugin 来让前端来用。
 
-为什么要写这本书？
+## 目录
+
+详见 [SUMMARY](./SUMMARY.md)
+
+其中，前三章是对前端写的，后面则是对原生开发写的。
+
+## 为什么要写这本书
 
 自己也是刚上手，觉得很多概念很熟悉，入门成本不算高，就开始自己写这本书，也算是对 flutter 一个总结。
 
-本书适合这样的前端:
+## 本书适合这样的前端
 
 * 熟练 CSS，尤其是各种布局方式，比如 position、flex
-* 有 TypeScript 基础
+* 有 TypeScript 或其他静态语言基础
 * 操练过 React / Vue 这一类框架
-* 想耍耍 Native 开发却不知如何开始（从 plugin 开始）
+* 想耍耍 Native 开发却不知如何开始，就从 plugin 开始
 
-## 目录
+## 能够学到
 
-* 组件
-  * [概述](./widgets/README.md)
-  * [StatelessWidget](./widgets/statelesswidget.md)
-  * [StatefulWidget](./widgets/statefulwidget.md)
-* 进阶
-  * 主题
-  * [路由](./advanced/route.md)
-  * 模块依赖
-  * 动画
-  * 状态管理
-* Example
-  * data-flow
-* Native
-  * 通信
-  * plugin 开发
-  * 在 Android 项目中集成
-  * 在 iOS 项目中集成
-  * 打包
-* 团队协作
-  * [Lint 工具](./team/lint.md)
-  * [工程管理](./team/product.md)
-* 其他
-  * [技巧](./ending/tips.md)
-  * [总结](./ending/README.md)
+* flutter 组件类型和常用组件介绍
+* flutter 数据管理、主题管理、依赖管理等
 
-其中，前三章是对前端写的，后面则是对原生开发写的。
+## 配套 Example
+
+* [flutter_notebook_redux](https://github.com/riskers/flutter_notebook_redux)
+* [flutter_data_flow](https://github.com/riskers/flutter_data_flow)

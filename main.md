@@ -1,25 +1,4 @@
-# 项目架构
 
-![](https://github-riskers-blog.oss-cn-qingdao.aliyuncs.com/20190106181933.png?x-oss-process=style/width)
-
-```dart
-import 'package:flutter/material.dart';
-
-void main() => runApp(MyApp());
-
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter',
-      home: Scaffold(
-        appBar: new AppBar(title: new Text('Title')),
-        body: new Text('Home')
-      )
-    );
-  }
-}
-```
 
 ## 布局
 
@@ -93,13 +72,3 @@ new Image.network(
 ## navigator
 
 [Code](https://gist.github.com/riskers/ee71c1754117981bf7358359b390ff4e#file-navigator-dart)
-
-# Widget
-
-## StatelessWidget
-
-## StatefulWidget
-
-### State
-
-一个StatefulWidget类会对应一个State类，State表示与其对应的StatefulWidget要维护的状态
