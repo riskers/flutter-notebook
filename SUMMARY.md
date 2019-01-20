@@ -8,6 +8,7 @@
 * [StatelessWidget](./widgets/statelesswidget.md)
 * [StatefulWidget](./widgets/statefulwidget.md)
 * [基本组件](./widgets/basewidget.md)
+* [常用组件](./widgets/commonwidget.md)
 
 ## 进阶
 
