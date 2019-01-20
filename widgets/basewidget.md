@@ -1,11 +1,3 @@
-
-
-## 布局
-
-针对麻烦的布局问题:
-
-* Alt + Enter: 快捷操作 Widget
-
 ## Text
 
 ## Image

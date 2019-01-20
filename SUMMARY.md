@@ -7,6 +7,7 @@
 * [概述](./widgets/README.md)
 * [StatelessWidget](./widgets/statelesswidget.md)
 * [StatefulWidget](./widgets/statefulwidget.md)
+* [基本组件](./widgets/basewidget.md)
 
 ## 进阶
 
@@ -35,5 +36,5 @@
 
 ## 其他
 
-* [技巧](./ending/tips.md)
+* [资源](./ending/resources.md)
 * [总结](./ending/README.md)
