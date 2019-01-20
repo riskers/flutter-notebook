@@ -13,6 +13,7 @@
 ## 进阶
 
 * 主题
+* [模块管理](./advanced/module.md)
 * [路由](./advanced/route.md)
 * 模块依赖
 * 动画
