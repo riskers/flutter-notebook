@@ -9,13 +9,13 @@
 * [StatefulWidget](./widgets/statefulwidget.md)
 * [基本组件](./widgets/basewidget.md)
 * [常用组件](./widgets/commonwidget.md)
+* [路由](./widgets/route.md)
 
 ## 进阶
 
 * 主题
 * [模块管理](./advanced/module.md)
-* [路由](./advanced/route.md)
-* 模块依赖
+* [资源依赖](./advanced/resources.md)
 * 动画
 * [flutter 中使用 redux 管理状态](./advanced/redux.md)
 * 数据持久化

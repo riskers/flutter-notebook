@@ -1,5 +1,7 @@
 # 路由
 
+[Code](https://gist.github.com/riskers/ee71c1754117981bf7358359b390ff4e#file-navigator-dart)
+
 路由是什么不用解释，几乎所有前端框架都有自己的路由体系，无非是基于 [history](https://developer.mozilla.org/en-US/docs/Web/API/Window/history) 或 [hashchange](https://developer.mozilla.org/en-US/docs/Web/Events/hashchange) 实现的。
 
 flutter 中的路由就很简单，是原生实现的:

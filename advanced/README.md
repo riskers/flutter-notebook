@@ -1,5 +1,5 @@
 * theme
 * route
-* deps
+* resource
 * anmation
 * 数据管理
