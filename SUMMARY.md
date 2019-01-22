@@ -7,7 +7,6 @@
 * [概述](./widgets/README.md)
 * [StatelessWidget](./widgets/statelesswidget.md)
 * [StatefulWidget](./widgets/statefulwidget.md)
-* [widget 通信](./widgets/bridge.md)
 * [基本组件](./widgets/basewidget.md)
 * [常用组件](./widgets/commonwidget.md)
 * [路由](./widgets/route.md)
@@ -17,8 +16,9 @@
 * 主题
 * [模块管理](./advanced/module.md)
 * [资源依赖](./advanced/resources.md)
-* 动画
+* [widget 通信](./advanced/bridge.md)
 * [flutter 中使用 redux 管理状态](./advanced/redux.md)
+* 动画
 * 数据持久化
 
 ## Example
