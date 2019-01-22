@@ -37,7 +37,3 @@
 * flutter 组件类型和常用组件介绍
 * flutter 数据管理、主题管理、依赖管理等
 
-## 配套 Example
-
-* [flutter_notebook_redux](https://github.com/riskers/flutter_notebook_redux)
-* [flutter_data_flow](https://github.com/riskers/flutter_data_flow)
