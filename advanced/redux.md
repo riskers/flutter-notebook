@@ -197,6 +197,6 @@
 
 本文只介绍 redux 在 flutter 中的应用，如果你对 React 很熟，你应该能明白 redux 的意义，除了有个全局 store 外，深层组件之间通信也不是问题了，对于 flutter 这种框架也是很有意义的。
 
-当然，数据管理方案上直接使用 redux 可能会比较重，这和 react 是类似的，小应用的话可以用全局事件来处理。但是，多人协作的大项目 redux 是你最应该想到的数据管理方案。
+当然，直接使用 redux 可能会比较重，这和 react 是类似的，小应用的话可以用全局总线来处理，甚至你可以一个界面就是一个 statefulwidget，直接都用 setState 来改变数据渲染界面，这样每个界面都是独立的数据了。
 
 > 总体上来说，在 flutter 上使用 redux 还是很麻烦的，好在官方在 [2019 roadmap](https://github.com/flutter/flutter/wiki/Roadmap#ease-of-adoption) 中提到了要提供最佳实践，让我们期待吧！
