@@ -7,6 +7,7 @@
 * [概述](./widgets/README.md)
 * [StatelessWidget](./widgets/statelesswidget.md)
 * [StatefulWidget](./widgets/statefulwidget.md)
+* [widget 通信](./widgets/bridge.md)
 * [基本组件](./widgets/basewidget.md)
 * [常用组件](./widgets/commonwidget.md)
 * [路由](./widgets/route.md)

@@ -1,7 +1,8 @@
-* Widget 分类
+* Widget 相关
   * [stateless](./statelesswidget.md)
   * [stateful](./statefulwidget.md)
-* 基础 Widget
+  * [bridge](./bridge.md)
+* 常用 Widget
   * Text
   * ListView
   * Image
