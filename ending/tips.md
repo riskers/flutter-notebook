@@ -4,4 +4,6 @@
 
 * alt + enter
 * cmd + \
-* cmd + shift + \: 全局刷新 -->
+* cmd + shift + \: 全局刷新
+* keymap: stful / stless
+-->

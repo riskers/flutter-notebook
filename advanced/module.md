@@ -1,12 +1,12 @@
 # 模块管理
 
-flutter 中模块有以下两种类型:
+flutter 中模块有以下类型:
 
 * Application: 一个完整的应用
-* Plugin: 对 iOS 或者 Android 开发者暴露的接口
-* Package: 一个 flutter Widget
+* Plugin: 与 iOS 或者 Android 通信的接口
+* Package: flutter Widget
 
-他们本质上都是 dart 语言包，可以开源发布在 pub 上，可以参见之前写过的模块管理 pub: [给前端看的 dart 包管理与发布](https://github.com/riskers/blog/issues/46)。
+他们本质上都是 dart 语言包，可以发布在 pub 上，可以参见之前写过的 [给前端看的 dart 包管理与发布](https://github.com/riskers/blog/issues/46)。
 
 上文讲了 dart 的发包，现在说下 dart 中模块的引用和使用(引用本地文件):
 

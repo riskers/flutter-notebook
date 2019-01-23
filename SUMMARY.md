@@ -13,7 +13,7 @@
 
 ## 进阶
 
-* 主题
+* [主题](./advanced/theme.md)
 * [模块管理](./advanced/module.md)
 * [资源依赖](./advanced/resources.md)
 * [widget 通信](./advanced/bridge.md)
@@ -23,10 +23,9 @@
 
 ## Native
 
-* 通信
-* plugin 开发
+* [通信 与 plugin](./native/plugins.d)
 * [在 Android / iOS 项目中集成](./native/add_flutter_to_app.md)
-* 打包
+* [打包](./native/build.md)
 
 ## 团队协作
 
