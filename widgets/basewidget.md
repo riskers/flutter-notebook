@@ -34,6 +34,8 @@ new Image.network(
 
 [Code](https://gist.github.com/riskers/ee71c1754117981bf7358359b390ff4e#file-column-dart)
 
+## Expanded
+
 ## Stack
 
 ![](https://github-riskers-blog.oss-cn-qingdao.aliyuncs.com/20190106213438.png?x-oss-process=style/width)
