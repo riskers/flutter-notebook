@@ -1,5 +1,13 @@
 # 资源集合
 
+## Article
+
+* [咸鱼系列文章](https://www.yuque.com/xytech/flutter)
+* [为什么说 Flutter 不一定是趋势?](https://mp.weixin.qq.com/s?__biz=MzIyMjQ0MTU0NA==&mid=2247487302&idx=1&sn=f6a3c53a752430f5b95f8eb49488d9bc&chksm=e82c3661df5bbf77f815c50adcaf1b496de192c9eae33c557b45e2f50cecd9baf22af88fdf55&scene=0&xtrack=1&ascene=56&devicetype=iOS12.1&version=1607042f&net)
+* [为什么我觉得 Flutter 短期内不会流行但依然选择学习它](https://limboy.me/essay/2019/01/07/is-flutter-the-future.html)
+* [《Flutter 实战》](https://book.flutterchina.club/)
+* [我看完掘金上的 227 篇文章，总结出一份 Flutter 入门教程](https://juejin.im/post/5b3c8a4be51d4519935860d5)
+
 ## Video
 
 * [Flutter Live 2018](https://www.bilibili.com/video/av38438700)
