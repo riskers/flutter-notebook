@@ -30,7 +30,7 @@
 * 熟练 CSS，尤其是各种布局方式，比如 position、flex
 * 有 TypeScript 或其他静态语言基础
 * 操练过 React / Vue 这一类框架
-* 想耍耍 Native 开发却不知如何开始，就从 plugin 开始
+* 想玩玩 Native 开发却不知如何开始，可以从 flutter 开始
 
 ## 本书没有这些内容
 
@@ -42,3 +42,7 @@
 * flutter 组件类型和常用组件介绍
 * flutter 数据管理、主题管理、依赖管理等
 * 如何与 Native 开发混合开发
+
+## 期待你的合作
+
+[native](./native/README.md) 部分内容 Native 开发工程师会比我更清楚，需要他们来研究、充实这一部分内容。
