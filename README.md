@@ -1,4 +1,4 @@
-本书发布在 https://riskers.gitbooks.io/flutter-notebook，感谢 github pages / gitbook / travis 提供的便利。
+本书发布在 https://riskers.gitbooks.io/flutter-notebook ，感谢 github pages / gitbook / travis 提供的便利。
 
 [Flutter](https://flutter.io/) 是 Google 出品的一款跨终端开发的框架，为什么要选择它？
 
