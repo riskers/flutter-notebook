@@ -1,5 +1,3 @@
-[进度](https://github.com/riskers/flutter-notebook/issues/1)
-
 [Flutter](https://flutter.io/) 是 Google 出品的一款跨终端开发的框架，为什么要选择它？
 
 * 热加载(hot reload)是 dev 支持的 ：UI 开发提速（不用 build）https://www.infoq.cn/article/why-flutter-uses-dart
