@@ -31,4 +31,4 @@ branches:
 
 env:
   global:
-    - REF=git@github.com:riskers/flutter-notebook.git # 设置 github 地址
+    - REF=github.com/riskers/flutter-notebook.git # 设置 github 地址
