@@ -1,5 +1,12 @@
 # 资源集合
 
+## repo
+
+* [flutter-go](https://github.com/alibaba/flutter-go): 阿里巴巴维护的 flutter widgets 展示项目
+* [HistoryOfEverything](https://github.com/2d-inc/HistoryOfEverything): Flutter 2019 上展示的 History 项目
+* [gitme](https://github.com/flutterchina/gitme): github 客户端
+* [Flutter-Notebook](https://github.com/OpenFlutter/Flutter-Notebook): 日更的 FlutterDemo 合集
+
 ## Article
 
 * [咸鱼系列文章](https://www.yuque.com/xytech/flutter)
