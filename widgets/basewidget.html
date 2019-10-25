@@ -1,0 +1,650 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>基本组件 · 写给前端看的 flutter 笔记</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="riskers">
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-disqus/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism-solarizedlight.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-bibtex-indexed-cite/style.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-page-footer-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-donate/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="commonwidget.html" />
+    
+    
+    <link rel="prev" href="statefulwidget.html" />
+    
+
+    <style>
+    @media only screen and (max-width: 640px) {
+        .book-header .hidden-mobile {
+            display: none;
+        }
+    }
+    </style>
+    <script>
+        window["gitbook-plugin-github-buttons"] = {"buttons":[{"user":"riskers","repo":"flutter-notebook","type":"star","size":"small","count":true}]};
+    </script>
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    关于
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">组件</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    概述
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="statelesswidget.html">
+            
+                <a href="statelesswidget.html">
+            
+                    
+                    StatelessWidget
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="statefulwidget.html">
+            
+                <a href="statefulwidget.html">
+            
+                    
+                    StatefulWidget
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.4" data-path="basewidget.html">
+            
+                <a href="basewidget.html">
+            
+                    
+                    基本组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="commonwidget.html">
+            
+                <a href="commonwidget.html">
+            
+                    
+                    常用组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="route.html">
+            
+                <a href="route.html">
+            
+                    
+                    路由
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">进阶</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../advanced/theme.html">
+            
+                <a href="../advanced/theme.html">
+            
+                    
+                    主题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../advanced/module.html">
+            
+                <a href="../advanced/module.html">
+            
+                    
+                    模块管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="../advanced/resources.html">
+            
+                <a href="../advanced/resources.html">
+            
+                    
+                    资源依赖
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="../advanced/bridge.html">
+            
+                <a href="../advanced/bridge.html">
+            
+                    
+                    widget 通信
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="../advanced/redux.html">
+            
+                <a href="../advanced/redux.html">
+            
+                    
+                    flutter 中使用 redux 管理状态
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.6" >
+            
+                <span>
+            
+                    
+                    动画
+            
+                </span>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.7" >
+            
+                <span>
+            
+                    
+                    数据持久化
+            
+                </span>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Native</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../native/">
+            
+                <a href="../native/">
+            
+                    
+                    概述
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="../native/plugins.html">
+            
+                <a href="../native/plugins.html">
+            
+                    
+                    通信 与 plugin
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="../native/add_flutter_to_app.html">
+            
+                <a href="../native/add_flutter_to_app.html">
+            
+                    
+                    在现有 Android / iOS 项目中集成
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="../native/build.html">
+            
+                <a href="../native/build.html">
+            
+                    
+                    打包
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">团队协作</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="../team/lint.html">
+            
+                <a href="../team/lint.html">
+            
+                    
+                    Lint 工具
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="../team/product.html">
+            
+                <a href="../team/product.html">
+            
+                    
+                    工程管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">其他</li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" data-path="../ending/resources.html">
+            
+                <a href="../ending/resources.html">
+            
+                    
+                    资源
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2" data-path="../ending/">
+            
+                <a href="../ending/">
+            
+                    
+                    总结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >基本组件</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><ul><li><span class="title-icon "></span><a href="#text"><b></b>Text</a></li><li><span class="title-icon "></span><a href="#image"><b></b>Image</a></li><li><span class="title-icon "></span><a href="#row"><b></b>Row</a></li><li><span class="title-icon "></span><a href="#column"><b></b>Column</a></li><li><span class="title-icon "></span><a href="#expanded"><b></b>Expanded</a></li><li><span class="title-icon "></span><a href="#stack"><b></b>Stack</a></li></ul></ul></div><a href="#" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h2 id="text"><a name="text" class="anchor-navigation-ex-anchor" href="#text"><i class="fa fa-link" aria-hidden="true"></i></a>Text</h2>
+<h2 id="image"><a name="image" class="anchor-navigation-ex-anchor" href="#image"><i class="fa fa-link" aria-hidden="true"></i></a>Image</h2>
+<pre class="language-"><code class="lang-dart"><span class="token keyword">new</span> <span class="token class-name">Image<span class="token punctuation">.</span>network</span><span class="token punctuation">(</span>
+    <span class="token string">&apos;https://ws1.sinaimg.cn/large/8e495e65ly1fyx06fa2d9j208s07agm5.jpg&apos;</span><span class="token punctuation">,</span>
+    fit<span class="token punctuation">:</span> BoxFit<span class="token punctuation">.</span>cover<span class="token punctuation">,</span>
+    repeat<span class="token punctuation">:</span> ImageRepeat<span class="token punctuation">.</span>repeatX<span class="token punctuation">,</span>
+<span class="token punctuation">)</span><span class="token punctuation">,</span>
+</code></pre>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Flutter</th>
+<th style="text-align:left">CSS</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">BoxFit.cover</td>
+<td style="text-align:left">background-size: cover</td>
+</tr>
+<tr>
+<td style="text-align:left">BoxFit.contain</td>
+<td style="text-align:left">background-size: contain</td>
+</tr>
+<tr>
+<td style="text-align:left">ImageRepeat.repeatX</td>
+<td style="text-align:left">background-repeat: repeat-x</td>
+</tr>
+<tr>
+<td style="text-align:left">ImageRepeat.repeatY</td>
+<td style="text-align:left">background-repeat: repeat-y</td>
+</tr>
+</tbody>
+</table>
+<h2 id="row"><a name="row" class="anchor-navigation-ex-anchor" href="#row"><i class="fa fa-link" aria-hidden="true"></i></a>Row</h2>
+<ul>
+<li>&#x4E0D;&#x7075;&#x6D3B;&#x5E03;&#x5C40;:</li>
+<li>&#x7075;&#x6D3B;&#x5E03;&#x5C40; <code>Expanded</code>: &#x5E73;&#x5747;&#x5206;&#x914D;&#xFF0C;&#x4E00;&#x884C;&#x5145;&#x6EE1;</li>
+</ul>
+<p>&#x7B2C;&#x4E09;&#x4E2A; button &#x662F;&#x81EA;&#x7531;&#x4F38;&#x7F29;&#x7684;&#xFF0C;&#x524D;&#x4E24;&#x4E2A;&#x662F; Expanded &#x7684;&#x3002;</p>
+<p><img src="https://github-riskers-blog.oss-cn-qingdao.aliyuncs.com/20190106204815.png?x-oss-process=style/width" alt=""></p>
+<p><a href="https://gist.github.com/riskers/ee71c1754117981bf7358359b390ff4e#file-row-dart" target="_blank">Code</a></p>
+<h2 id="column"><a name="column" class="anchor-navigation-ex-anchor" href="#column"><i class="fa fa-link" aria-hidden="true"></i></a>Column</h2>
+<p><img src="https://github-riskers-blog.oss-cn-qingdao.aliyuncs.com/20190106210938.png?x-oss-process=style/width" alt=""></p>
+<p><a href="https://gist.github.com/riskers/ee71c1754117981bf7358359b390ff4e#file-column-dart" target="_blank">Code</a></p>
+<h2 id="expanded"><a name="expanded" class="anchor-navigation-ex-anchor" href="#expanded"><i class="fa fa-link" aria-hidden="true"></i></a>Expanded</h2>
+<h2 id="stack"><a name="stack" class="anchor-navigation-ex-anchor" href="#stack"><i class="fa fa-link" aria-hidden="true"></i></a>Stack</h2>
+<p><img src="https://github-riskers-blog.oss-cn-qingdao.aliyuncs.com/20190106213438.png?x-oss-process=style/width" alt=""></p>
+<p><a href="https://gist.github.com/riskers/ee71c1754117981bf7358359b390ff4e#file-stack-dart" target="_blank">Code</a></p>
+<footer class="page-footer-ex"> <span class="page-footer-ex-copyright"> By <a href="https://github.com/riskers" target="_blank">riskers</a>&#xFF0C;&#x4F7F;&#x7528;<a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">&#x77E5;&#x8BC6;&#x5171;&#x4EAB; &#x7F72;&#x540D;-&#x76F8;&#x540C;&#x65B9;&#x5F0F;&#x5171;&#x4EAB; 4.0&#x534F;&#x8BAE;</a>&#x53D1;&#x5E03; </span> &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; <span class="page-footer-ex-footer-update"> &#x6B64;&#x9875;&#x9762;&#x4FEE;&#x8BA2;&#x4E8E;&#xFF1A; 2019-10-25 13:40:12 </span> </footer>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="statefulwidget.html" class="navigation navigation-prev " aria-label="Previous page: StatefulWidget">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="commonwidget.html" class="navigation navigation-next " aria-label="Next page: 常用组件">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"基本组件","level":"2.4","depth":1,"next":{"title":"常用组件","level":"2.5","depth":1,"path":"widgets/commonwidget.md","ref":"./widgets/commonwidget.md","articles":[]},"previous":{"title":"StatefulWidget","level":"2.3","depth":1,"path":"widgets/statefulwidget.md","ref":"./widgets/statefulwidget.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","search-pro","-sharing","disqus","github-buttons","editlink","ga","-highlight","prism","bibtex-indexed-cite","anchor-navigation-ex","page-footer-ex","splitter","todo","copy-code-button","expandable-chapters-small","donate"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{"ignore":["mermaid","eval-js"],"css":["prismjs/themes/prism-solarizedlight.css"]},"disqus":{"useIdentifier":false,"shortName":"flutter-notebook"},"editlink":{"label":"Edit","multilingual":false,"base":"https://github.com/riskers/flutter-notebook/blob/master"},"todo":{},"page-footer-ex":{"copyright":"By [riskers](https://github.com/riskers)，使用[知识共享 署名-相同方式共享 4.0协议](https://creativecommons.org/licenses/by-sa/4.0/)发布","markdown":true,"update_format":"YYYY-MM-DD HH:mm:ss","update_label":"此页面修订于："},"splitter":{},"search-pro":{"cutWordLib":"nodejieba","defineWord":["Gitbook Use"]},"donate":{"alipay":"https://riskers.github.io/flutter-notebook/alipay.jpg","alipayText":"支付宝打赏","button":"赏","title":"","wechat":"https://riskers.github.io/flutter-notebook/wechat.jpg","wechatText":"微信打赏"},"fontsettings":{"theme":"white","family":"sans","size":2},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":false},"bibtex-indexed-cite":{"path":"/"},"github-buttons":{"buttons":[{"user":"riskers","repo":"flutter-notebook","type":"star","size":"small","count":true}]},"expandable-chapters-small":{},"copy-code-button":{},"ga":{"configuration":"auto","token":"UA-131910384-2"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"riskers","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"bibCount":0,"variables":{},"title":"写给前端看的 flutter 笔记","bib":[],"gitbook":"*"},"file":{"path":"widgets/basewidget.md","mtime":"2019-10-25T13:40:12.331Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-10-25T13:41:03.326Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/URI.js/1.16.1/URI.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-disqus/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github-buttons/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-editlink/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-ga/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-donate/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
